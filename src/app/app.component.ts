@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-app';
-}
+  todoArray = ["element1"]
+  addTodo(value)
+  {    this.todoArray.push(value)    
+    console.log(this.todos)  } }
